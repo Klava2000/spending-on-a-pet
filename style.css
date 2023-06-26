@@ -1,0 +1,67 @@
+body {
+    background-image: url(dogs.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #9D5C0D;
+}
+
+#container {
+    background-color: rgba(60, 37, 0, 0.7);
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 800px;
+    border-radius: 30px;
+    color: #FAFAFA;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+    color: #FAFAFA;
+    align-self: center;
+}
+
+input {
+    font-family: 'Lato', sans-serif;
+    padding: 5px;
+}
+
+#btn {
+    background-color: #9D5C0D;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    font-family: 'Lato', sans-serif;
+    color: #FAFAFA;
+}
+
+#total {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+}
+
+@media all and (max-width: 800px) { 
+    body {
+        background-size: auto;
+    }
+
+    #container {
+        margin-top: 100px;
+    }
+}
