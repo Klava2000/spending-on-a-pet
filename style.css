@@ -14,7 +14,7 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     width: 600px;
-    height: 800px;
+    height: 1000px;
     border-radius: 30px;
     color: #FAFAFA;
 }
@@ -50,10 +50,11 @@ input {
 
 #total {
     display: flex;
+    flex-direction: column;
     margin: 10px;
     padding: 10px;
     font-family: 'Lato', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 @media all and (max-width: 800px) { 
